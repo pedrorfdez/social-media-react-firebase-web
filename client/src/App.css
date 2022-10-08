@@ -96,3 +96,22 @@ textarea {
   border-width: 2px;
   border-color: black;
 }
+
+.posts-area {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.post {
+  margin: 10px;
+  padding: 30px 20px;
+  width: 320px;
+  border-style: solid;
+  border-width: 4px;
+  border-color: rgb(97, 4, 184);
+  overflow: hidden;
+}
